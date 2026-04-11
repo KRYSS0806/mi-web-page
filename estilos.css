@@ -1,0 +1,39 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(127, 214, 255);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main section {
+   background-color: rgb(151, 239, 255);
+   padding: 10px;
+   margin: 10px;
+   flex-grow: 1;
+}
+
+main aside {
+    background-color: rgb(221, 213, 255);
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 2;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 229, 255);
+}
